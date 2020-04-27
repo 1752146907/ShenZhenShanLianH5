@@ -1,0 +1,125 @@
+.transferBottom{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.message{
+    text-align: center;
+    margin-top: 16px;
+}
+.message img{
+    width:86px;
+    height:86px;
+}
+.message p:nth-child(2){
+    font-size:15px;
+    font-weight:400;
+    color:rgba(26,26,26,1);
+    margin-top: 10px;
+}
+.message p:nth-child(3){
+    margin-top: 2px;
+    font-size:15px;
+    font-weight:400;
+    color:rgba(26,26,26,0.5);
+}
+.messageContent{
+    width: 90%;
+    margin: 0 auto;
+}
+.money{
+margin-top: 37px;
+}
+.moneyTitle{
+    font-size:13px;
+    font-weight:400;
+    color:rgba(26,26,26,1);
+}
+.moneyInput{
+    height: 38px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+.moneyInput input{
+    height: 18px;
+    flex: 1;
+}
+.moneyInput input::-webkit-input-placeholder{
+    color:rgba(26,26,26,0.3);
+}
+.moneyButton{
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+}
+.moneyButton p{
+    margin-right: 12px;
+    font-size:15px;
+    font-weight:400;
+}
+.moneyButton p:nth-child(2){
+    margin-bottom: 3px;
+}
+.moneyButton p:nth-last-child(1){
+    margin-right: 0;
+    color:rgba(41,66,151,1);
+}
+.available{
+    font-size:13px;
+    margin-top: 7px;
+    font-weight:400;
+    color:rgba(26,26,26,0.5);
+}
+.poundage{
+    margin-top: 35px;
+}
+.transferButton{
+    width:270px;
+    height:55px;
+    background:rgba(41,66,151,1);
+    box-shadow:0px 18px 14px -7px rgba(38,63,150,0.22);
+    border-radius:28px;
+    text-align: center;
+    line-height: 55px;
+    font-size:17px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    margin: 24px auto 10px;
+}
+.accountText{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.verification{
+    display: flex;
+    height: 45px;
+    line-height: 45px;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.verification p{
+    margin-left: 31%;
+}
+.verificationInput{
+    width: 85%;
+    margin: 51px auto 0;
+    height: 40px;
+    border-bottom: 1px solid rgba(26, 26, 26, 0.1);
+    line-height: 40px;
+}
+.verificationButton{
+    width:270px;
+    height:55px;
+    background:rgba(41,66,151,1);
+    box-shadow:0px 18px 14px -7px rgba(38,63,150,0.22);
+    border-radius:28px;
+    font-size:17px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    line-height: 55px;
+    margin: 60px  auto 0;
+}

@@ -1,0 +1,88 @@
+
+.price{
+    padding: 0px 20px;
+}
+.price-title{
+    font-size:14px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin: 15px 0px 10px 0px;
+}
+.price-body{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.price-body .on {
+    color: #1A1A1A;
+}
+.price-body-number{
+    flex: 1;
+    font-size:28px;
+    font-family: 'DINM';
+    font-weight:500;
+    color:rgba(164,212,88,1);
+}
+.price-body-number span{
+    font-family: 'DINM';
+}
+.price-body-type{
+    flex: 1;
+    font-size:14px;
+    text-align: right;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-top: 10px;
+}
+
+.record .bar{
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+}
+.record-body{
+    padding: 0px 20px;
+}
+.record-item{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    font-size:14px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.record-item-title{
+    width: 120px;
+}
+.record-item-detailed{
+    flex: 1;
+    display: flex;
+    min-width: 0;
+    text-align: right;
+    font-size: 14px;
+    justify-content: flex-end;
+}
+.record-item-detailed span {
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.record-item-detailed img{
+    width: 18px;
+    height: 18px;
+    margin-left: 4px;
+}
+
+.from-submit{
+    height: 55px;
+    line-height: 55px;
+    color: #ffffff;
+    background: linear-gradient(to right, #294297 , #294297);
+    margin: 100px 20px 6px 10px;
+    text-align: center;
+    border-radius: 30px;
+}

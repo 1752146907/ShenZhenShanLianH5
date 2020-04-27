@@ -1,0 +1,103 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.top{
+  display: flex;
+  padding: 10px 0px;
+  align-items: center
+}
+.top img{
+  width: 50px;
+  height: 50px;
+  margin-right: 18px
+}
+.top span{
+  font-size:40px;
+  font-family:SourceHanSansSC-Light;
+  font-weight:300;
+  color:rgba(72,127,215,1); 
+}
+
+.body-con{
+  width: 1197px;
+  margin: 0 auto;
+}
+
+.banner{
+  margin: 0 auto 69px auto;
+  max-width: 1920px;
+  height: 300px;
+  background: url(../images/notice-banner.jpg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav{  
+}
+.nav-item{
+  width: 399px; 
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  box-sizing: border-box
+}
+.nav-item .box{   
+  color: #487FD7;
+  line-height: 58px;
+  border: 1px solid #487FD7;
+  border-radius: 4px;  
+
+} 
+.nav-item:nth-child(3){
+  padding-right: 0px !important;
+}
+.nav-item:nth-child(6){
+  padding-right: 0px !important;
+}
+
+.activity{
+  margin: 62px 0px;
+}
+.activity-title{ 
+  padding-top: 42px;
+  font-size:20px;
+  font-family:SourceHanSansSC-Medium;
+  font-weight:500;
+  color:rgba(51,51,51,1); 
+  text-align: center;
+  border-top: 1px solid #DEDEDE;
+}
+.activity-item{
+  padding: 30px 0px;
+  margin-top: 35px;
+  border-bottom: 1px solid #DEDEDE;
+}
+.activity-item-title{
+  font-size:15px;
+  font-family:SourceHanSansSC-Medium;
+  font-weight:500;
+  color:rgba(51,51,51,1); 
+}
+.activity-item-text{
+  font-size:13px;
+  font-family:SourceHanSansSC-Regular;
+  font-weight:400;
+  color:rgba(192,192,192,1); 
+}
+.activity-item-time{
+  float: right;
+  font-size:13px;
+  font-family:SourceHanSansSC-Regular;
+  font-weight:400;
+  color:rgba(163,163,163,1); 
+}
+.activity .more{
+  font-size:15px;
+  margin-top: 22px;
+  font-family:SourceHanSansSC-Medium;
+  font-weight:500;
+  color:rgba(72,127,215,1); 
+}

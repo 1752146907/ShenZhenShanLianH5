@@ -1,0 +1,64 @@
+.successBottom{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.success-images{
+    text-align: center;
+    margin-top: 131px;
+}
+.success-text{
+    margin-top: 20px;
+    font-size:20px;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+}
+.success-images img{
+    width: 100px;
+}
+.push-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+
+}
+.push-button p:nth-child(1){
+    margin-right: 50px;
+}
+.push-button p{
+    width:81px;
+    height:39px;
+    border-radius:20px;
+    border:1px solid rgba(0,0,0,0.2);
+    font-size:13px;
+    line-height: 39px;
+    text-align: center;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+
+
+}
+.shopkeeperImg{
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 44px;
+    line-height: 44px;
+    font-weight:400;
+    background: #fff;
+    z-index: 100;
+    text-align: center;
+    color: #1A1A1A;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.shopkeeperImg img{
+    width: 21px;
+    height: 15px;
+    position: absolute;
+    top: 0.875rem;
+    left: 1.25rem;
+}

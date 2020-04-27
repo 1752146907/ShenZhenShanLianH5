@@ -1,0 +1,32 @@
+.buying{
+    margin-top: 18px;
+    font-size:16px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+.buying-text{
+    display: flex;
+    overflow: hidden;
+}
+.buying-text i{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: rgba(0, 0, 0, 1);
+    transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    margin: 14px 0 0 14px;
+}
+.buying-text p{
+    font-size:16px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:40px;
+    width: 312px;
+    margin-left: 14px;
+}

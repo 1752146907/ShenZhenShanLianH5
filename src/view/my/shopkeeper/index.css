@@ -1,0 +1,123 @@
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+
+.shopkeeper-list-select{
+
+    height: 30px;
+    border-bottom: 2px solid rgba(246, 246, 246, 1);
+}
+.shopkeeper-select{
+    font-size:15px;
+    display: flex;
+    justify-content: space-between;
+    width: 57%;
+    margin: 0 auto;
+    color: rgba(148, 147, 147, 1);
+
+}
+.router-link-exact-active {
+    height: 30px;
+    font-size:15px;
+    font-family:PingFangSC;
+    display: inline-block;
+
+    border-bottom: 2px solid rgba(38, 63, 150, 1)!important;
+    font-weight:500;
+    color:rgba(38,63,150,1)!important;
+}
+.shopkeeper-select a{
+    color: rgba(148, 147, 147, 1);
+}
+
+.subscribe{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 12px 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px #eaeaea;
+}
+.subscribe-code{
+    width: 140px;
+    height: 140px;
+    margin: 42px auto 34px auto;
+    padding: 2px;
+    box-sizing: border-box;
+    background: url("../../../image/code-bg.png") no-repeat;
+}
+.subscribe-code-title{
+    font-size:15px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:21px;
+    text-align: center;
+    padding: 17px 0px 5px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.subscribe-title{
+    font-size:17px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+
+.subscribe .sum{
+    font-size:14px;
+    color: #9E9E9E;
+    text-align: right;
+    margin-top: 10px;
+}
+.subscribe-opened{
+    font-size: 14px;
+    font-family:PingFangSC-Regular;
+}
+
+.tips{
+    color: #9E9E9E;
+    font-size:11px;
+    line-height:18px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+}
+.tips li{
+    list-style-type: decimal;
+}
+
+.from-submit{
+    height: 55px;
+    line-height: 55px;
+    color: #ffffff;
+    background: linear-gradient(to right, #294297 , #294297);
+    margin: 54px 0px 6px 0px;
+    text-align: center;
+    border-radius: 30px;
+}
+.shopkeeperImg{
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 44px;
+    line-height: 44px;
+    font-weight:400;
+    background: #fff;
+
+    z-index: 100;
+    text-align: center;
+    color: #1A1A1A;
+    font-size: 17px;
+
+}
+
+.shopkeeperImg img{
+    width: 21px;
+    height: 15px;
+    position: absolute;
+    top: 0.875rem;
+    left: 1.25rem;
+}

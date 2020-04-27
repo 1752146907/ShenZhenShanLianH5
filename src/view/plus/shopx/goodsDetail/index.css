@@ -1,0 +1,236 @@
+﻿
+.goods-main {
+    padding-bottom: 50px;
+}
+
+.banner {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.banner >>> .swiper-pagination-bullet-active {
+    background: rgba(254, 0, 0, 1);
+}
+
+.banner-img {
+    background-repeat: no-repeat
+}
+
+.content {
+    padding-top: 13px;
+    padding-bottom: 18px;
+}
+
+.content-title {
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    line-height: 24px;
+    margin-bottom: 11px;
+    padding: 0px 10px;
+}
+
+.content-price {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(254, 0, 0, 1);
+    line-height: 40px;
+    padding: 0px 10px; 
+}
+
+.content-price .market {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.29);
+    line-height: 18px;
+    margin-left: 20px;
+}
+
+.content-price .market s {
+
+}
+
+.content-ask {
+    font-size: 11px;
+    font-weight: 400;
+    color: #333333;
+    line-height: 16px;
+    padding: 8px 10px 0px 10px;
+}
+
+.content-ask span {
+    height: 18px;
+    line-height: 20px;
+    display: inline-block;
+    padding: 0px 10px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border: 1px solid #333333;
+}
+
+.detail-by {
+    overflow-x: hidden;
+    border-top: 10px solid #f5f5f5;
+}
+
+.submit {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(90deg, rgba(255, 60, 111, 1) 0%, rgba(255, 47, 9, 1) 100%);
+}
+
+.trade {
+}
+
+.trade-box {
+    position: relative;
+    height: 100%;
+    padding-bottom: 68px;
+    box-sizing: border-box;
+}
+
+.trade-header {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.trade-header .trade-header-left {
+    width: 104px;
+    height: 104px;
+    padding: 15px 15px 0px 7px;
+}
+
+.trade-header .trade-header-right {
+    flex: 1;
+    padding-top: 17px;
+}
+
+.trade-header .trade-header-right .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(254, 0, 0, 1);
+    line-height: 28px;
+    font-family: 'DINM';
+}
+
+.trade-header .trade-header-right .store {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.29);
+    margin-bottom: 10px;
+}
+
+.trade-header .trade-header-right .title {
+    padding-right: 10px;
+    line-height: 18px;
+    font-size: 13px;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+
+.trade-body {
+    padding: 11px 10px 11px 10px;
+}
+
+.trade-body .title {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.trade-body .body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trade-body .body .item {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    padding: 4px 14px;
+    border-radius: 13px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.trade-body .body .on {
+    color: rgba(254, 0, 0, 1);
+    background: #FEF0F0;
+    border: 1px solid rgba(254, 0, 0, 1);
+}
+
+.trade-number {
+    display: flex;
+    align-items: center;
+    padding: 0px 14px;
+    margin-top: 18px;
+}
+
+.trade-number .label {
+    flex: 1;
+}
+
+.trade-number .input {
+
+}
+
+.trade-number .input .box {
+    width: 128px;
+    height: 33px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.32);
+    border-radius: 18px;
+}
+
+.trade-number .input .box .pull {
+    width: 41px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.32);
+    display: inline-block;
+}
+
+.trade-number .input .box input {
+    width: 43px;
+    height: 33px;
+    font-size: 13px;
+    color: #333333;
+    text-align: center;
+}
+
+.trade-number .input .box .push {
+    width: 41px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.32);
+    display: inline-block;
+}
+
+.trade-footer {
+    height: 49px;
+    line-height: 49px;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(90deg, rgba(255, 60, 111, 1) 0%, rgba(255, 47, 9, 1) 100%);
+}

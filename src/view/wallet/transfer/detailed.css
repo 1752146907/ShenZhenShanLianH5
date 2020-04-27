@@ -1,0 +1,77 @@
+.transferBottom{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.detailed{
+    text-align: center;
+}
+.detailedImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.detailedImg img{
+    width:34px;
+    height:33px;
+    margin-right: 10px;
+}
+.detailedImg p {
+    font-size:15px;
+    font-weight:400;
+    color:rgba(26,26,26,1);
+}
+.detailedMobile{
+    margin-top: 12px;
+    font-size:15px;
+    font-weight:400;
+    color:rgba(26,26,26,0.5);
+}
+.particular{
+    width: 90%;
+    margin: 0 auto;
+}
+.particularTitle{
+    margin-top: 19px;
+    font-size:14px;
+    font-weight:400;
+    color:rgba(26,26,26,1);
+}
+.particularContent{
+    height: 49px;
+    line-height: 49px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.bigger{
+    font-size:28px;
+    font-family:DIN-Medium,DIN;
+    font-weight:500;
+    color:rgba(26,26,26,1);
+}
+.shopkeeperImg{
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 44px;
+    line-height: 44px;
+    font-weight:400;
+    background: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    z-index: 100;
+    text-align: center;
+    color: #1A1A1A;
+    font-size: 17px;
+
+}
+
+.shopkeeperImg img{
+    width: 21px;
+    height: 15px;
+    position: absolute;
+    top: 0.875rem;
+    left: 1.25rem;
+}

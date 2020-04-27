@@ -1,0 +1,108 @@
+
+.seach .bar{
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+}
+
+.seach{
+    height: 100vh;
+    overflow: scroll;
+    background: #F5F5F5;
+}
+.seachBottom{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.orderStatus:nth-last-child(1){
+    margin-bottom: 0;
+}
+.orderStatus{
+    width: 100%;
+    height: 220px;
+    background:rgba(255,255,255,1);
+    margin-top: 10px;
+}
+.orderDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 37px;
+    font-size:13px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 0 10px;
+}
+.specifications{
+    height: 119px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    align-items: center;
+
+}
+.specifications img{
+    width: 80px;
+    height: 80px;
+    background: #1A1A1A;
+    margin-left: 10px;
+}
+.specifications-text{
+    margin-left: 19px;
+    width: 270px;
+}
+.specifications-text p{
+    font-size:13px;
+    font-weight:400;
+    padding-right: 10px;
+    color:rgba(51,51,51,1);
+}
+.specifications-text span{
+    display: inline-block;
+    padding: 1px 10px;
+    border-radius:9px;
+    border:1px solid rgba(151,151,151,1);
+    font-size:10px;
+    font-weight:400;
+    text-align: center;
+    margin-top: 7px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7px;
+}
+.price p:nth-child(1){
+    font-size:17px;
+    font-weight:500;
+    color:rgba(254,0,0,1);
+}
+.price p:nth-child(2){
+    margin-right: 10px;
+    padding-right: 0;
+    font-size:13px;
+    font-weight:400;
+
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+    padding: 0 10px;
+}
+.amount p{
+    font-size:13px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+.amount span{
+    display: inline-block;
+    width:93px;
+    height:30px;
+    border-radius:15px;
+    border:1px solid rgba(51,51,51,1);
+    text-align: center;
+    font-size:13px;
+    line-height: 30px;
+    font-weight:400;
+}

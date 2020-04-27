@@ -1,0 +1,66 @@
+﻿
+.back-1{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    z-index: 999; 
+}
+
+.seach .bar{
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+}
+
+.seach{
+    height: 100vh;
+    overflow: scroll;
+    background: #F5F5F5;
+}
+.seach .seach-body{
+    padding: 13px 10px 10px 10px;
+}
+.seach .title-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+}
+.seach .title-box img {
+    width: 15px;
+    height: 15px;
+}
+.seach .title-box-title{
+    flex: 1;
+    font-size:13px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:18px;
+}
+
+.sale-button-box .li{
+    font-size:13px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:18px;
+    border-radius:17px;
+    padding: 5px 13px 3px 13px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    border:1px solid rgba(181,181,181,1);
+}
+
+.no-data p{
+    height: 20px;
+    color: #333333;
+    font-size:13px;
+}
+.no-data img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 22px;
+}
+.no-data p span{
+    color: #FF311E;
+}

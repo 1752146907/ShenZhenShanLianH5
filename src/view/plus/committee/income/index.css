@@ -1,0 +1,178 @@
+.income {
+    background: rgba(41,66,151,1);
+}
+.income .bar-two{
+    background: transparent !important;
+}
+.circle-big{
+    border-radius: 0 0 100% 0;
+    position: absolute;
+    top: -110px;
+    left: -94px;
+    width:280px;
+    height:280px;
+    background:rgba(255,255,255,0.03);
+}
+.circle-small{
+    border-radius: 50%;
+    position: absolute;
+    width:39px;
+    height:39px;
+    top: 84px;
+    right: 19px;
+    background:linear-gradient(127deg, rgba(41,66,151,1) , rgba(216,216,216,0.15));
+}
+
+.income-hender{
+    height: 134px;
+    text-align: center;
+    background: #294297;
+    padding-top: 44px;
+}
+
+.income-body{
+    background: #ffffff;
+    margin-top: -20px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    padding-top: 20px;
+}
+
+.income-money{
+    color: white;
+}
+.income-money .font-info{
+    margin-top: 5px;
+}
+.income-money .font-info span{
+    font-size:15px;
+    line-height:21px;
+    font-weight:400;
+    color:rgba(255,255,255,0.5);
+}
+.income-money .money{
+    padding-top: 18px;
+}
+.income-money .money span{
+    font-size: 36px;
+    font-family: 'DINM';
+    font-weight: 500;
+    line-height: 44px;
+}
+.income-money .money .font-utd{
+    font-size:17px;
+    font-family:'PingFangSC';
+    font-weight:400;
+    line-height:24px;
+}
+
+.record,.record-head{
+    padding: 0px 20px;
+}
+.record-head p{
+    display: inline-block;
+    font-size:17px;
+    font-family:'PingFangSC';
+    font-weight:400;
+    color:rgba(26,26,26,1);
+    line-height:24px;
+    margin-left: 6px;
+}
+.record-head .circle{
+    display: inline-block;
+    width:9px;
+    height:9px;
+    border:1px solid rgba(41,66,151,1);
+    border-radius: 50%;
+    line-height:24px;
+}
+.record-item{
+    padding: 24px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.record-item-body{
+    display: flex;
+}
+.record-item-body-number{
+    width: 110px;
+    color: #333333;
+    font-size:12px;
+    text-align: right;
+}
+.record-item-body-info{
+    flex: 1;
+    display: flex;
+    align-items:center;
+}
+.record-item-body-number p{
+    font-size:17px;
+    font-weight:500;
+    color:rgba(26,26,26,1);
+    line-height:21px;
+    padding-top: 6px;
+}
+.record-item-body-number p span{
+    font-family: 'DINM';
+
+}
+.record-item-body-icon{
+    color: #333333;
+    font-size:12px;
+    text-align: center;
+}
+.record-item-body-icon img{
+    margin-top: 4px;
+    height: 36px;
+    width: 36px;
+}
+.record-item-body-time{
+    color: #333333;
+    font-size:16px;
+    line-height: 22px;
+    text-align: left;
+    margin-left: 15px;
+}
+.record-item-body-time p{
+    font-size:12px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(26,26,26,0.5);
+    line-height:17px;
+    margin-top: 4px;
+}
+
+.top-bar{
+    height: 44px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    z-index: 222;
+}
+.top-bar-box{
+    font-size:17px;
+    height: 44px;
+    font-weight:400;
+    position: relative;
+
+}
+.top-bar-back{
+    width: 21px;
+    height: 15px;
+    position: absolute;
+    top: 14px;
+    left: 20px;
+}
+.top-bar span{
+    font-size: 13px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    font-weight:normal;
+}
+
+

@@ -1,0 +1,51 @@
+
+.record{
+    padding: 0px 20px;
+}
+.main .bar{
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+}
+.record-item{
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.record-item-body{
+    display: flex;
+}
+.record-item-body-number{
+    flex: 1;
+    text-align: left;
+    font-size:16px;
+    font-weight:400;
+    color:rgba(26,26,26,1);
+    line-height:22px;
+}
+.record-item-body-number p{
+    font-size:12px;
+    font-family:DIN-Medium;
+    padding-top: 4px;
+    font-weight:400;
+    color:rgba(26,26,26,0.5);
+    line-height:17px;
+}
+.record-item-body-number .on {
+    color: #435FE0 !important;
+}
+.record-item-body-time{
+    flex: 1;
+    color: #333333;
+    font-size:12px;
+    line-height: 26px;
+    text-align: right;
+    padding-top: 10px;
+}
+.record-item-body-time p{
+    font-size:17px;
+    font-weight:500;
+    color:rgba(26,26,26,1);
+    line-height:21px;
+    font-family: 'DINM';
+}
+.record-item-body-time p span{
+    font-family: 'DINM';
+}

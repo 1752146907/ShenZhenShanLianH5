@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>UTD - 全球TOKEN经济践行者</title>
+  <meta name="description" content="UTD,UTD生态,缤纷集UTD,缤纷集,缤纷集商城,缤纷集小程序,UTD币,UTD Token,UTD官网,UTD项目,分布式商业践行者,分布式自治组织,TOKEN经济新商业">
+  <meta http-equiv="keywords" content="UTD,UTD生态,缤纷集UTD,缤纷集,缤纷集商城,UTD币,UTD Token,UTD官网,UTD项目">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+<!--  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">-->
+  <style type="text/css">
+    #Loading {
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      background: #ffffff;
+      z-index: 999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #Loading .box {
+      position: relative;
+      width: 50px;
+      height: 50px;
+    }
+    #Loading .box .progress {
+      width: 4px;
+      height: 4px;
+      border-radius: 2px;
+      background: #27a5ee;
+      position: absolute;
+      animation: demo3 linear 0.8s infinite;
+      -webkit-animation: demo3 linear 0.8s infinite;
+    }
+    #Loading .box .progress:nth-child(1){
+      left: 24px;
+      top: 2px;
+      animation-delay:0s;
+    }
+    #Loading .box .progress:nth-child(2){
+      left: 40px;
+      top: 8px;
+      animation-delay:0.1s;
+    }
+    #Loading .box .progress:nth-child(3){
+      left: 47px;
+      top: 24px;
+      animation-delay:0.1s;
+    }
+    #Loading .box .progress:nth-child(4){
+      left: 40px;
+      top: 40px;
+      animation-delay:0.2s;
+    }
+    #Loading .box .progress:nth-child(5){
+      left: 24px;
+      top: 47px;
+      animation-delay:0.4s;
+    }
+    #Loading .box .progress:nth-child(6){
+      left: 8px;
+      top: 40px;
+      animation-delay:0.5s;
+    }
+    #Loading .box .progress:nth-child(7){
+      left: 2px;
+      top: 24px;
+      animation-delay:0.6s;
+    }
+    #Loading .box .progress:nth-child(8){
+      left: 8px;
+      top: 8px;
+      animation-delay:0.7s;
+    }
+
+    @keyframes demo3
+    {
+      0%,40%,100% {transform: scale(1);}
+      20% {transform: scale(3);}
+    }
+    @-webkit-keyframes demo3
+    {
+      0%,40%,100% {transform: scale(1);}
+      20% {transform: scale(3);}
+    }
+  </style>
+</head>
+<body>
+<noscript>
+  <strong>We're sorry but chuangshi-ui doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+<div id="Loading">
+  <div class="box">
+    <div class="progress"></div>
+    <div class="progress"></div>
+    <div class="progress"></div>
+    <div class="progress"></div>
+    <div class="progress"></div>
+    <div class="progress"></div>
+    <div class="progress"></div>
+    <div class="progress"></div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+
+.text-truncate{
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+input::-webkit-input-placeholder {
+    font-size:17px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(0,0,0,0.5);
+}
+
+.task{
+    padding-bottom: 78px;
+
+}
+.task-hender{
+    height: 227px;
+    text-align: center;
+    background: #294297;
+}
+.task-hender img{
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.task-body{
+    background: #ffffff;
+    margin-top: -20px;
+    padding: 14px 34px 0px 34px;
+    font-family:PingFangSC;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+.task-body .title{
+    font-size:17px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(26,26,26,1);
+    line-height:24px;
+}
+.task-body .procedure{
+    height: 50px;
+    display: flex;
+    margin-top: 17px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #F4F4F4;
+}
+.task-body .procedure .procedure-item{
+    flex: 1;
+    text-align: center;
+    position: relative;
+    font-family:PingFangSC;
+}
+.task-body .procedure .procedure-item .number{
+    width:24px;
+    height:24px;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    font-size:15px;
+    margin: 0 auto;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    background:rgba(41,66,151,1);
+    border:1px solid rgba(121,168,237,1);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: 9;
+}
+.task-body .procedure .procedure-item .text{
+    font-size:14px;
+    font-weight:400;
+    color:rgba(26,26,26,1);
+    line-height:20px;
+    padding-top: 6px;
+    position: absolute;
+    top: 26px;
+    left: 0px;
+    right: 0px;
+}
+.task-body .procedure .procedure-item .line{
+    height: 1px;
+    background: #79A8ED;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    right: 0px;
+}
+.task-body .procedure .procedure-item:nth-child(1)  .line {
+    width: 50%;
+    left: 50%;
+}
+.task-body .procedure .procedure-item:last-child .line{
+    width: 50%;
+}
+.task-body .conten{
+    font-size:13px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(26,26,26,1);
+    line-height:25px;
+    padding-top: 16px;
+}
+
+.task .next{
+    width: 270px;
+    height: 55px;
+    font-weight:400;
+    font-size:17px;
+    text-align: center;
+    color:rgba(255,255,255,1);
+    line-height: 55px;
+    background: #294297;
+    border-radius: 30px;
+    box-shadow:0px 18px 14px -7px rgba(38,63,150,0.22);
+    margin: 7px auto 0 ;
+}
+.nextBack{
+    position: fixed;
+    background:#ffff;
+    width: 100%;
+    bottom: 0;
+    height: 75px;
+}

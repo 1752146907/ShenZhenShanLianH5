@@ -1,0 +1,38 @@
+
+.img{
+    width: 216px;
+    margin: 147px auto 0px auto;
+    display: block;
+}
+.title{
+    font-size:20px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:28px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.title-text{
+    font-size:14px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(0,0,0,0.5);
+    line-height:20px;
+    margin-bottom: 186px;
+    padding: 0px 20px;
+    text-align: center;
+}
+.chack{
+    width: 270px;
+    height: 55px;
+    line-height: 55px;
+    font-size:17px;
+    color: #ffffff;
+    margin: 80px auto 0px auto;
+    text-align: center;
+    background: #294297;
+    border-radius:25px;
+    box-shadow:0px 18px 14px -7px rgba(38,63,150,0.22);
+}

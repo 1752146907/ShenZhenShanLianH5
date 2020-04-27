@@ -1,0 +1,48 @@
+.account{
+    width:335px;
+    height:100px;
+    background:linear-gradient(27deg,rgba(90,90,90,1) 0%,rgba(22,22,22,1) 100%);
+    box-shadow:0px 49px 36px 0px rgba(0,0,0,0.1);
+    border-radius:7px;
+    margin: 33px auto 0;
+    display: flex;
+}
+.account-left{
+    width: 99px;
+    border-right: 2px solid rgba(255, 255, 255, 0.3);
+    height: 100px;
+    text-align: center;
+}
+.account-left img{
+    width:21px;
+    height:18px;
+    margin-top: 26px;
+}
+.account-left p{
+    margin-top: 10px;
+    font-size:13px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+.account-right{
+    width: 234px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.account-right-text{
+    color: rgba(255,255,255,0.54);
+    font-size:13px;
+    font-weight:400;
+    line-height: 2.125rem;
+    margin-left: 26px;
+}
+.account-right-text span{
+    margin-left: 21px;
+}
+.account-right-ico{
+    color: rgba(255,255,255,0.54);
+    margin-right: 10px;
+
+}

@@ -1,0 +1,147 @@
+.invite{
+    height: 100vh;
+}
+.invite-name{
+    height:145px;
+    font-size:13px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    background:rgba(41,66,151,1);
+    display: flex;
+    justify-content: space-between;
+}
+.invite-left {
+    width: 50%;
+    padding: 37px 0 0 34px;
+}
+.handle-right-author{
+    font-size:17px;
+    font-family:PingFangSC;
+    font-weight:400;
+    margin-bottom: 8px;
+}
+.invite-right{
+    width: 50%;
+    padding: 0  0 30px 100px;
+    display: flex;
+    align-items: center;
+}
+.invite-right img{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    vertical-align: middle;
+    background: #fff;
+
+}
+.invite-right i{
+  margin-left: 18px;
+}
+.direct-invite{
+    height: 106px;
+    background:rgba(121,168,237,1);
+    border-radius:30px 30px 0px 0px;
+    position: relative;
+    top: -1.6875rem;
+
+}
+.direct-invite{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+}
+.direct-invite-ico{
+    margin-top: 14px;
+    width: 1px;
+    height: 24px;
+    background: rgba(255, 255, 255, 1);
+    transform:rotate(40deg);
+    -ms-transform:rotate(40deg); 	/* IE 9 */
+    -moz-transform:rotate(40deg); 	/* Firefox */
+    -webkit-transform:rotate(40deg); /* Safari 和 Chrome */
+    -o-transform:rotate(40deg); 	/* Opera */
+}
+.direct-invite-people{
+    margin-left: 34px;
+}
+.direct-invite-people p:nth-child(1){
+    font-size:15px;
+    font-weight:400;
+    color:rgba(255,255,255,0.5);
+    margin-bottom: 7px;
+}
+.direct-invite-people p:nth-child(2){
+    font-size:17px;
+    font-family: 'DIN';
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+.direct-invite-indirect{
+    margin-right: 35px;
+}
+.direct-invite-indirect p:nth-child(1){
+    font-size:15px;
+    font-weight:400;
+    color:rgba(255,255,255,0.5);
+    margin-bottom: 7px;
+}
+.direct-invite-indirect p:nth-child(2){
+    font-size:17px;
+    font-family: 'DIN';
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+.activity-invite{
+    height:425px;
+    overflow: hidden;
+    background:rgba(255,255,255,1);
+    border-radius:30px 30px 0px 0px;
+    position: relative;
+    top: -3.25rem;
+}
+.activity-invite{
+    font-size:13px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(26,26,26,1);
+
+}
+.activity-invite p{
+    margin: 20px 0 0 34px;
+}
+.activity-invite-text{
+    margin-top: 11px;
+    display: flex;
+
+
+}
+.activity-invite-text i{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.8);
+    margin:  10px  15px 0px 11px;
+
+}
+.activity-invite-text span{
+    flex: 1;
+    padding-right: 10px;
+    line-height: 25px;
+}
+.invite-button{
+    width:270px;
+    height:55px;
+    background:rgba(41,66,151,1);
+    box-shadow:0px 18px 14px -7px rgba(38,63,150,0.22);
+    border-radius:28px;
+    text-align: center;
+    line-height: 55px;
+    color: #fff;
+    font-size:17px;
+    font-family:PingFangSC;
+    font-weight:400;
+    margin: 53px auto 0;
+}
+

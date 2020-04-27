@@ -1,0 +1,46 @@
+
+.box .bar{
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.1);
+}
+
+.recharge-history{
+    font-size: 13px;
+    position: fixed;
+    top: 14px;
+    right: 20px;
+    z-index: 99999;
+}
+.recharge-history img{
+    width: 24px;
+}
+.main{
+    padding: 25px 20px 0px 20px;
+}
+.main-text{
+    font-size:11px;
+    font-family:PingFangSC-Regular;
+    color:rgba(158,158,158,1);
+    line-height:18px;
+    margin-top: 20px;
+}
+.main-body .title{
+    color: #1A1A1A;
+    font-size:12px;
+    padding: 24px 20px 32px 20px;
+    word-break:break-all;
+    text-align: center;
+}
+.main-body-code {
+    width: 247px;
+    height: 247px;
+    padding: 2px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.main-body-code-img{
+    display: block;
+}
+.main-body-footer{
+    text-align: center;
+    padding: 20px 0px;
+}

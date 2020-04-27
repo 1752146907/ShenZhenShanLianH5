@@ -1,0 +1,180 @@
+﻿.detail{
+    height: 100vh;
+    background-color: #F5F5F5;
+    overflow: scroll;
+}
+.detail .bar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.flex-div{
+    display: flex;
+}
+.padding-10{
+    padding: 0 10px;
+    background-color: #ffffff;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+.flex-right{
+    flex: 1;
+    text-align: right;
+    font-size:16px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:24px;
+    padding: 5px 0px 10px 0;
+}
+.flex-left{
+    width: 130px;
+    font-size:16px;
+    font-weight:300;
+    color:rgba(51,51,51,1);
+    line-height:24px;
+    padding: 5px 0px 10px 0;
+}
+.font-title{
+    font-size:17px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:48px;
+}
+.detail-head{
+    align-items: center;
+    height: 49px;
+}
+.detail-head .flex-left{
+    padding: 0;
+}
+.detail-head .flex-right{
+    padding: 0;
+}
+.detail-head{
+    align-items: center;
+    height: 49px;
+}
+.detail-head span{
+    font-size:13px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:18px;
+    border-radius:15px;
+    border: 1px solid #333333;
+    padding: 6px 20px;
+}
+.icon_car{
+    display: block;
+    width: 23px;
+    height: 18px;
+    margin-right: 10px;
+}
+.icon_tuihuo{
+    display: block;
+    width: 18px;
+    height: 17px;
+    margin-right: 10px;
+}
+.express-info{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-top: 1px solid #E4E4E4;
+}
+.aftersales-info-image img{
+    width: 80px;
+    height: 80px;
+    margin: 5px 20px 15px 0px;
+}
+.user-address{
+    padding: 11px 10px;
+}
+.user-address img{
+    width: 12px;
+    height: 13px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.user-info span{
+    font-size:13px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:18px;
+    margin-right: 20px;
+}
+.address-info span{
+    font-size:12px;
+    font-weight:400;
+    color:rgba(0,0,0,0.4);
+    line-height:17px;
+}
+.user-info,.address-info{
+    margin-bottom: 13px;
+}
+.goods-info{
+    display: flex;
+    padding: 13px 10px;
+    align-items: center;
+    background-color: #ffffff;
+}
+.goods-info-img{
+    width: 100px;
+}
+.goods-info img{
+    width: 80px;
+    height: 80px;
+}
+.goods-info-detail{
+    flex: 1;
+}
+.goods-info-title{
+    font-size:13px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:18px
+}
+.goods-info-type{
+    margin: 6px 0;
+ }
+.goods-info-type span{
+    font-size:10px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    border-radius:9px;
+    border:1px solid rgba(151,151,151,1);
+    padding: 2px 14px;
+}
+.goods-info-price{
+    display: flex;
+    align-items: center;
+}
+.goods-info-money{
+    flex: 1;
+    font-size:17px;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    line-height:24px;
+}
+.goods-info-money .font-utd{
+    font-weight:400;
+}
+.goods-info-number{
+    text-align: right;
+    width: 60px;
+    font-size:13px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:18px;
+}
+.order-info{
+    padding-bottom: 10px;
+}
+.toReturn-btn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 49px;
+    font-size:17px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    background:linear-gradient(90deg,rgba(255,60,106,1) 0%,rgba(255,49,16,1) 100%)
+}

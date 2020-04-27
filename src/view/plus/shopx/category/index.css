@@ -1,0 +1,32 @@
+﻿
+.category{
+    height: 100vh;
+    background: #f5f5f5;
+}
+
+.bar{
+    height: 44px;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 20px;
+    background: #ffffff;
+    z-index: 99;
+}
+.bar-box{
+    height: 44px;
+    position: relative;
+    font-size:17px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color: #1A1A1A;
+
+}
+.bar-back{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+}

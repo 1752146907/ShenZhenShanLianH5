@@ -1,0 +1,38 @@
+
+.hender{
+    padding: 20px;
+    border-top: 1px solid #D8D8D8;
+}
+.hender .crumbs{
+    font-size:13px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:#999999;
+    margin-bottom: 18px;
+}
+
+.hender .crumbs span{
+    color:#457DDA;
+}
+
+.document{
+    padding: 0px 20px;
+}
+
+.document-title{
+    margin-top: 19px;
+    font-size:20px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    line-height:28px;
+}
+
+.document-time{
+    margin: 35px 0px 28px 0px;
+    font-size:14px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(158,158,158,1);
+    line-height:20px;
+}

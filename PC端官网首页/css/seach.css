@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top{
+    padding: 10px 0px;
+    align-items: center;
+    border-bottom: 1px solid #DEDEDE;
+}
+.top .body-con {
+    display: flex;
+}
+.top img{
+    width: 50px;
+    height: 50px;
+    margin-right: 18px
+}
+.top span{
+    font-size:40px;
+    font-family:SourceHanSansSC-Light;
+    font-weight:300;
+    color:rgba(72,127,215,1);
+}
+
+.body-con{
+    width: 1197px;
+    margin: 0 auto;
+}
+
+.crumbs{
+    display: flex;
+    align-items: center;
+    padding: 21px 0px;
+    margin-bottom: 66px;
+}
+.crumbs-left{
+    flex: 1;
+    color: #999999;
+}
+.crumbs-left span{
+    color: #487FD7;
+}
+.crumbs .seach{
+    flex: 1;
+    text-align: right;
+    position: relative;
+}
+.crumbs img{
+    width: 20px;
+    right: 280px;
+    top: 13px;
+    position: absolute;
+}
+.crumbs input{
+    width: 313px;
+    height: 46px;
+    border-radius: 20px;
+    border: 1px solid #DEDEDE;
+    padding-left: 45px;
+    box-sizing: border-box;
+}
+
+.document{
+    display: flex;
+}
+.document-left{
+    flex: 1;
+}
+.document-content{
+    width: 992px;
+}
+.document-title{
+    font-size:30px;
+    font-family:SourceHanSansSC-Regular;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    margin-bottom: 20px;
+}
+.document-sub{
+    font-size:14px;
+    font-family:SourceHanSansSC-Light;
+    font-weight:300;
+    color:rgba(0,0,0,1);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.dociment-body-box{
+    margin-bottom: 99px;
+}
+.document-body .item{
+    font-size:15px;
+    font-family:SourceHanSansSC-Regular;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    padding: 14px 0px 15px 0px;
+    border-bottom: 1px solid #DEDEDE;
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor:pointer;
+}
+
+.page{
+    display: flex;
+    text-align: center;
+    justify-content: center
+}
+.page .page-item{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: #636363;
+    font-size: 16px;
+    cursor:pointer;
+}
+.page .activity{
+    color: #ffffff;
+    background: #487FD7;
+}

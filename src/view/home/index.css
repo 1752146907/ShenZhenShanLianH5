@@ -1,0 +1,415 @@
+
+.opacity0-2{
+    opacity: 0.2;
+}
+
+.main{
+    overflow: hidden;
+}
+.banner{
+    height: 417px;
+    position: relative;
+    background: #263F96;
+}
+.banner-particles{
+    height: 417px;
+}
+.banner .utd{
+    padding:8px 0px 0px 14px;
+    text-shadow:0px 1px 0px rgba(2,87,219,1);
+    margin-bottom: 8px;
+    position: relative;
+    font-size:24px;
+    font-family:PingFangSC;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    line-height:33px;
+}
+.banner .utd .more{
+    position: absolute;
+    right: 15px;
+    top: 16px;
+}
+.banner .more{
+    width: 29px;
+    height: 18px;
+    z-index: 999;
+}
+.banner-body{
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-family:PingFangSC;
+    padding-top: 128px;
+    padding-bottom: 70px;
+}
+.banner-body img{
+    width: 90px;
+    height: 103px;
+}
+.banner-body-title{
+    font-size:24px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:33px;
+    padding-top: 52px;
+    padding-bottom: 10px;
+}
+.banner-body-sub{
+    font-size:13px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:16px;
+}
+/*缤纷集*/
+.bifenji{
+    padding-top: 36px;
+}
+.bifenji p{
+    text-align: center;
+    font-size:20px;
+    font-weight:400;
+    color:rgba(1,1,1,1);
+    line-height:28px;
+    margin-top: 10px;
+}
+.bifenji-body{
+    height: 378px;
+    padding-top: 57px;
+    position: relative;
+}
+.bifenji-body-mask{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.bifenji-body-box{
+    height: 378px;
+    display: inline;
+    white-space: nowrap;
+    overflow-x:scroll;
+    float:left;
+    overflow-y:hidden;
+    transition: all 1s;
+}
+.bifenji-body .slide-solid{
+    position: absolute;
+    left: 100px;
+    top: 44px;
+    width: 193px;
+    height: 391px;
+}
+.bifenji-body-arr-left{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    top: 224px;
+}
+.bifenji-body-arr-right{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 224px;
+    transform:rotate(180deg);
+}
+.bifenji-body .card{
+    display:inline-block;
+    margin: 0px 10px;
+    transition: all 1s;
+}
+.bifenji-body .card img{
+    width: 169px;
+    height: 365px;
+    transition: all 1s;
+}
+.bifenji-body .card:nth-child(1){
+    padding-left: 102px;
+    opacity: 0;
+}
+.bifenji-body .card:nth-child(1) img {
+    position: relative;
+    left: 189px;
+}
+.bifenji-body .card:nth-child(3){
+    opacity: 0;
+}
+.bifenji-body .card:nth-child(3) img {
+    position: relative;
+    left: -189px;
+}
+.bifenji-body .card-last{
+    padding-right: 102px;
+}
+.left-0{
+    left: 0px;
+}
+/*用户数据*/
+.user{
+    height: 490px;
+    background: #263F96;
+    margin-top: 92px;
+    position: relative;
+    overflow: hidden;
+    font-family:PingFangSC;
+}
+.user-top-dot{
+    width: 138px;
+    height: 138px;
+    background: #586BAE;
+    border-radius: 50%;
+    position: absolute;
+    top: -58px;
+    left: -58px;
+}
+.user-bottom-dot{
+    width: 123px;
+    height: 123px;
+    background: #586BAE;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50px;
+    right: -68px;
+}
+.user-title{
+    font-size: 20px;
+    padding-top: 26px;
+    margin-bottom: 33px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:28px;
+    text-align: center;
+}
+.user-body{
+    padding: 0px 15px;
+}
+.user-body .user-body-item{
+    margin-bottom: 25px;
+}
+.user-body .user-body-item .number{
+    font-size:36px;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:44px;
+    margin-bottom: 8px;
+}
+.user-body .user-body-item .number span {
+    font-family: 'DINM';
+}
+.user-body .user-body-item .progress1{
+    height: 7px;
+    background: #ffffff;
+    transition: all 3s;
+}
+.user-body .user-body-item .progress2{
+    height: 7px;
+    background: #688CFF;
+    transition: all 3s;
+}
+.user-body .user-body-item .progress3{
+    height: 7px;
+    background: #688CFF;
+    transition: all 2s;
+}
+.user-body .user-body-item .text{
+    font-size:13px;
+    font-weight:400;
+    color:rgba(255,255,255,0.3);
+    line-height:18px;
+    margin-top: 10px;
+}
+
+/*自治委员会*/
+.slef-community{
+    padding-top: 48px;
+    text-align: center;
+}
+.slef-community-title{
+    font-size:20px;
+    font-weight:400;
+    color:rgba(1,1,1,1);
+    line-height:28px;
+}
+.slef-community-tab{
+    margin-top: 48px;
+    margin-bottom: 23px;
+}
+.slef-community-tab span{
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    font-size:17px;
+    display: inline-block;
+    border-radius: 20px;
+    background: #263F96;
+    border: 1px solid #263F96;
+    margin: 0px 6px;
+}
+.slef-community-tab .right{
+    color: #263F96;
+    background: #ffffff;
+    border: 1px solid #263F96;
+}
+.slef-community p{
+    text-align: left;
+    padding: 0px 18px;
+    font-size:14px;
+    font-weight:300;
+    color:rgba(1,1,1,1);
+    line-height:35px;
+}
+.slef-community-obj01{
+    width: 231px;
+    height: 162px;
+    margin: 62px 0px 88px 0px;
+}
+.slef-community .menber{
+    margin-top: -89px;
+}
+.slef-community .menber .menber-item{
+    text-align: center;
+    margin-top: 89px;
+}
+.slef-community .menber .menber-item img{
+    width: 70px;
+    height: 70px;
+}
+.slef-community .menber .menber-item p{
+    font-size:36px;
+    font-weight:500;
+    color:rgba(1,1,1,1);
+    line-height:44px;
+    text-align: center;
+    margin: 26px 0px 9px 0px;
+}
+.slef-community .menber .menber-item p span{
+    font-family: 'DINM';
+}
+.slef-community .menber .menber-item .text{
+    font-size:20px;
+    font-weight:300;
+    color:rgba(1,1,1,1);
+    line-height:28px;
+}
+/*战略合作*/
+.cooperation{
+    margin-top: 56px;
+    overflow: hidden;
+}
+.cooperation .hender{
+    height: 206px;
+    background: #253F98;
+    padding-top: 34px;
+    box-sizing: border-box;
+    position: relative;
+}
+.cooperation .hender-logo{
+    width: 150px;
+    height: 147px;
+    margin: 0 auto;
+    display: block;
+    opacity: 0.1;
+}
+.cooperation .hender-body{
+    font-family:PingFangSC;
+    text-align: center;
+    position: absolute;
+    top: 47px;
+    left: 0px;
+    right: 0px;
+}
+.cooperation .hender-body-title{
+    font-size:20px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:28px;
+    margin-bottom: 25px;
+}
+.cooperation .hender-body p{
+    width: 291px;
+    margin: 0 auto;
+    font-size:13px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:22px;
+}
+.cooperation-body{
+    display: inline;
+    white-space: nowrap;
+    overflow-x: scroll;
+    float: left;
+    overflow-y: hidden;
+    padding: 10px 0px;
+}
+.cooperation-body img{
+    width: 160px;
+    display: inline-block;
+}
+/*链接*/
+.link{
+    border-top: 1px solid #E6E6E6;
+}
+.link-item{
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    border-bottom: 1px solid #E6E6E6;
+    font-size:20px;
+    font-family:PingFangSC;
+    font-weight:400;
+    color:rgba(1,1,1,1);
+}
+/*其它登录方式*/
+.orter{
+    text-align: center;
+    padding: 30px 0px 33px 0px;
+}
+.orter img{
+    width: 18px;
+    height: 18px;
+    margin: 0px 14px;
+    display: inline-block;
+}
+/*脚步*/
+.footer{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.footer p{
+    text-align: center;
+    font-size:13px;
+    font-weight:400;
+    color:rgba(1,1,1,1);
+    line-height:20px;
+}
+
+/*公告*/
+.notice{
+    height: 37px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.notice .more{
+    font-size:12px;
+    font-family:PingFangSC-Semibold;
+    color:#333333;
+    margin-left: 15px;
+}
+.notice i{
+    margin-right: 15px;
+}
+.notice p{
+    line-height: 38px;
+    color: #696969;
+    font-size:12px;
+}

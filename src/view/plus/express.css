@@ -1,0 +1,96 @@
+﻿.express{
+    height: 100vh;
+    background-color: #F5F5F5;
+    overflow: scroll;
+}
+.express .bar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.express-info{
+    background-color: #ffffff;
+    padding: 9px 9px;
+}
+.express-info div{
+    font-size:16px;
+    font-weight:300;
+    color:rgba(51,51,51,1);
+    line-height:36px;
+}
+.logis-detail {
+    padding: 30px;
+
+}
+
+.logis-detail .logis-item {
+    position: relative;
+    padding: 10px 0 10px 25px;
+    box-sizing: border-box;
+    border-left: 2px solid #ccc;
+}
+
+.logis-detail .logis-item.first {
+    border-left: 2px solid #f40;
+}
+
+.logis-detail .logis-item:after {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    left: -6px;
+    top: 30px;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background: #bdbdbd;
+    border: 2px solid #fff;
+}
+
+.logis-detail .logis-item.first:after {
+    background: #f40;
+}
+
+.logis-detail .logis-item .logis-item-content {
+    position: relative;
+    background: #f9f9f9;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #666;
+}
+
+.logis-detail .logis-item.first .logis-item-content {
+    background: #ff6e39;
+    color: #fff;
+}
+
+.logis-detail .logis-item .logis-item-content:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    top: 18px;
+    border-left: 10px solid #F5F5F5;
+    border-bottom: 10px solid #f9f9f9;
+}
+
+.logis-detail .logis-item.first .logis-item-content:after {
+    border-bottom-color: #ff6e39;
+}
+.item-info{
+    width: 100%;
+    word-wrap:break-word;
+}
+.item-time{
+    width: 100%;
+    word-wrap:break-word;
+}
+.no-data p{
+    height: 20px;
+    color: #333333;
+    font-size:13px;
+    font-weight:400;
+}
+.no-data img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 22px;
+}

@@ -1,0 +1,68 @@
+
+.hender{
+    padding: 20px;
+    border-top: 1px solid #D8D8D8;
+}
+.hender .crumbs{
+    font-size:13px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:#999999;
+    margin-bottom: 18px;
+}
+
+.hender .crumbs span{
+    color:#457DDA;
+}
+
+.document{
+    padding: 0px 20px;
+}
+.document-title{
+    font-size:28px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    margin: 10px 0px 20px 0px;
+}
+.document-body .title{
+    font-size:17px;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(0,0,0,1);
+    margin-bottom: 14px;
+}
+.document-body .dociment-body-box{
+    margin-bottom: 40px;
+}
+.document-body .item{
+    font-size:15px;
+    font-family:PingFangSC-Regular;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    border-bottom: 1px solid #D8D8D8;
+    margin-bottom: 10px;
+    padding-bottom: 9px;
+    word-wrap: normal; /* for IE */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.page{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.page-item{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+.page-item-active{
+    color: #ffffff;
+    background: #467EDC;
+}

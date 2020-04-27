@@ -1,0 +1,169 @@
+
+.chat{
+    margin-bottom: 60px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+.chat .hander{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    background-size: 100% 100%;
+    text-align: center;
+    background: rgba(41, 66, 151, 1);
+}
+.chat .hander .title{
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 3px;
+    font-weight:600;
+}
+.chat .hander .hander-about{
+    font-size:22px;
+    margin-top: -10px;
+    color:rgba(255, 255, 255, 0.42);
+    font-family:'PingFangSC-Regular,PingFangSC';
+}
+.chat .hander .money{
+    height: 78px;
+    line-height: 78px;
+    margin-top: 26px;
+    font-size:36px;
+    font-weight:500;
+    font-family: 'DINM';
+    color:rgba(255,255,255,1);
+}
+.chat .hander .money span{
+    font-family: 'DINM';
+}
+.char-back{
+    position: relative;
+    top: -4.375rem;
+    background: white;
+    border-radius:30px 30px 0px 0px;
+}
+.char-type{
+    padding: 20px 20px 20px 47px;
+    font-size:17px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:18px;
+}
+.chart-body{
+    padding: 0px 20px 20px 20px;
+}
+.chart-body-item{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.chart-body-item .icon{
+    width: 45px;
+    height: 45px;
+    margin-right: 17px;
+}
+.chart-body-item .title{
+    flex: 1;
+    font-size: 17px;
+    color: #333333;
+    font-family:PingFangSC-Regular;
+}
+.chart-body-item .number{
+    flex: 1;
+    font-family: 'DINM';
+    text-align: right;
+    color: #333333;
+    font-weight: 500;
+    color:rgba(26,26,26,1);
+    font-size: 17px;
+}
+.chart-body-item .number p{
+    color: #9E9E9E;
+    font-size: 12px;
+    margin-top: 3px;
+    font-family: 'DINM';
+}
+.plus-head {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 90%;
+    height: 44px;
+    line-height: 44px;
+    margin: 0 auto;
+    align-items: center;
+}
+.plus-head img{
+    width: 50px;
+    height: 20px;
+}
+.more{
+    position: relative;
+    top: 4px;
+    right: 3px;
+    width: 29px;
+    height: 18px;
+    z-index: 999;
+}
+.more i{
+    display: block;
+    width: 29px;
+    height: 2px;
+    border-radius: 1px;
+    background: #ffffff;
+    transition: all .3s ease-in-out;
+}
+.more i:nth-child(2) {
+    margin: 4px 0px;
+}
+.more .rotateY {
+    transform: translateY(5px) rotate(-45deg);
+}
+.more .rotateX {
+    transform: translateY(-1px) rotate(45deg);
+}
+
+.chat-back{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-width: 0 200px 200px;
+    left: -14.625rem;
+    top: -2.625rem;
+    border-style: solid;
+    border-color: transparent transparent rgba(255,255,255,0.05);
+    transform:rotate(315deg);
+    -ms-transform:rotate(315deg); 	/* IE 9 */
+    -moz-transform:rotate(315deg); 	/* Firefox */
+    -webkit-transform:rotate(315deg); /* Safari 和 Chrome */
+    -o-transform:rotate(315deg); 	/* Opera */
+}
+.chat-left{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-width: 0 200px 200px;
+    left: 10.625rem;
+    top: 9.625rem;
+    border-style: solid;
+    border-color: transparent transparent rgba(255,255,255,0.05);
+    transform:rotate(135deg);
+    -ms-transform:rotate(135deg); 	/* IE 9 */
+    -moz-transform:rotate(135deg); 	/* Firefox */
+    -webkit-transform:rotate(135deg); /* Safari 和 Chrome */
+    -o-transform:rotate(135deg); 	/* Opera */
+}
+
+
+
+
+
+
+
